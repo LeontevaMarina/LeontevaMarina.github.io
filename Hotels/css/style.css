@@ -139,7 +139,7 @@ textarea:focus
 }
 
 .header-contacts-link {
-    margin-left: 20px;
+    margin-left: auto;
     font-size: 22px;
     color: #666666;
 }
