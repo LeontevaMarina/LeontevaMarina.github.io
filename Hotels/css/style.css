@@ -157,7 +157,7 @@ textarea:focus
 }
 
 .button-header-burger {
-    background: url(/Hotels/img/Menu_icon_icon-icons.com_71858.png) center center no-repeat transparent;
+    background: url(../img/Menu_icon_icon-icons.com_71858.png) center center no-repeat transparent;
     width: 40px;
     height: 40px;
     border: none;
