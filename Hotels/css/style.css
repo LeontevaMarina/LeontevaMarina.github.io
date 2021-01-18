@@ -162,6 +162,7 @@ textarea:focus
     height: 40px;
     border: none;
     display: none;
+    margin-left: auto;
 }
 
 .header-bottom {
