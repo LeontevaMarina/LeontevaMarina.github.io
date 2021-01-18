@@ -152,12 +152,12 @@ textarea:focus
     display: inline-block;
     width: 21px;
     height: 12px;
-    background: url(../img/keyboard_tab.png) center center no-repeat transparent;
+    background: url(../Hotels/img/keyboard_tab.png) center center no-repeat transparent;
     margin-right: 3px;
 }
 
 .button-header-burger {
-    background: url(../img/Menu_icon_icon-icons.com_71858.png) center center no-repeat transparent;
+    background: url(../Hotels/img/Menu_icon_icon-icons.com_71858.png) center center no-repeat transparent;
     width: 40px;
     height: 40px;
     border: none;
@@ -226,7 +226,7 @@ textarea:focus
 .btn-submit {
     width: 30px;
     height: 30px;
-    background-image: url(/Hotels/img/search.png);
+    background-image: url(../Hotels/img/search.png);
     background-repeat: no-repeat;
     background-color: transparent;
     background-position: center center;
@@ -333,7 +333,7 @@ textarea:focus
     left: 350px;
     width: 14px;
     height: 26px;
-    background: url(../img/arrow.png) center center no-repeat transparent;
+    background: url(../Hotels/img/arrow.png) center center no-repeat transparent;
 }
 
 /* About */
@@ -507,7 +507,7 @@ margin-bottom: 20px;
     top: 0;
     width: 370px;
     height: 440px;
-    background-image: url('/Hotels/img/new/41.png');
+    background-image: url(../Hotels/img/new/41.png);
     z-index: -1;
 }
 
@@ -685,7 +685,7 @@ margin-bottom: 20px;
 .footer-contact-list {
     width: 520px;
     margin-top: 7px;
-    background-image: url(/Hotels/img/new/solnce.png);
+    background-image: url(../Hotels/img/new/solnce.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-color: transparent;
@@ -739,20 +739,20 @@ margin-bottom: 20px;
 }
 
 .footer-social-icon-twitter {
-    background-image: url(/Hotels/img/twitter.png);
+    background-image: url(../Hotels/img/twitter.png);
     transform: translateY(-2px);
 }
 
 .footer-social-icon-facebook {
-    background-image: url(/Hotels/img/facebook.png);
+    background-image: url(../Hotels/img/facebook.png);
 }
 
 .footer-social-icon-google {
-    background-image: url(/Hotels/img/google.png);
+    background-image: url(../Hotels/img/google.png);
 }
 
 .footer-social-icon-social {
-    background-image: url(/Hotels/img/social.png);
+    background-image: url(../Hotels/img/social.png);
 }
 
 
