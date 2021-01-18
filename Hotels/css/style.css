@@ -291,7 +291,7 @@ textarea:focus
     position: relative;
     width: 100%;
     height: 540px;
-    background: url(/Hotels/img/new/header.jpg);
+    background: url(../Hotels/img/new/header.jpg);
     background-repeat: no-repeat;
     border-radius: 8px;
 }
