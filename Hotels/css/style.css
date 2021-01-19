@@ -1001,6 +1001,10 @@ margin-bottom: 20px;
         width: 49%;
     }
 
+    .section-accommondation-item-more-btn {
+        display: none;
+    }
+
     .contact-container {
         flex-direction: column;
     }
