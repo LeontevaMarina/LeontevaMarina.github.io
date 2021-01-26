@@ -572,7 +572,6 @@ line-height: 32px;
 
 .accordion .contentBX .content {
     position: relative;
-    padding: 25px;
     height: 0;
     overflow: hidden;
     transition: 0.5s;
@@ -582,6 +581,7 @@ line-height: 32px;
 .accordion .contentBX.active .content {
     height: 180px;
     overflow-y: hidden;
+    padding: 25px;
 }
 
 /* footer */
