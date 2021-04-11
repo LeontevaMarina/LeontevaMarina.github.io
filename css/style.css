@@ -1,0 +1,1233 @@
+/* Humanist-300 - latin_cyrillic */
+@font-face {
+    font-family: 'Humanist';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Humanist Light'),
+         url('../fonts/Humanist\ 521_Light.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Humanist\ 521_Light.woff') format('woff'); /* Modern Browsers */
+}
+
+  /* Humanist-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Humanist';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Humanist Regular'),
+         url('../fonts/Humanist\ 521_Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Humanist\ 521_Regular.woff') format('woff'); /* Modern Browsers */
+}
+
+  /* Humanist-800 - latin_cyrillic */
+@font-face {
+    font-family: 'Humanist';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Humanist Bold'),
+         url('../fonts/Humanist 521_Bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Humanist 521_Bold.woff') format('woff'); /* Modern Browsers */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    font-family: 'Humanist';
+    background-color: #F1F2F5;
+}
+
+h1 {
+    font-size: 24px !important;
+    font-weight: bold;
+    color: #fff;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px !important;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 27px;
+}
+
+.container-border {
+    margin-top: -27px;
+    border-radius: 25px;
+    z-index: 1000;
+    background-color: #F1F2F5;
+}
+
+button:active, button:focus {
+    outline: none;
+}
+button::-moz-focus-inner {
+    border: 0;
+}
+
+
+/* header */
+
+.header {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 0px;
+}
+
+
+/* hero */
+
+.hero {
+    height: 358px;
+    background: #565566 url(/img/Mobile.jpg) center no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+}
+
+.hero__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+.hero__banner-heading {
+    line-height: 1.3em;
+    margin-top: 13px;
+    margin-bottom: 22px;
+    max-width: 206px;
+}
+
+.hero-timer-heading {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.hero-timer-container {
+    display: flex;
+}
+
+.hero-timer-numeral-block {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.hero-timer-numeral {
+    min-width: 25px;
+    height: 35px;
+    color: #fff;
+    background-color: #858995;
+    font-size: 16px;
+    padding: 8px;
+    margin-right: 4px;
+    border-radius: 5px;
+}
+
+.hero-timer-day-subtitle {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.2em;
+    font-weight: 300;
+}
+
+.hero-timer-day-separator {
+    width: 10px;
+    height: 20px;
+    color: #fff;
+    padding: 5px 0px;
+}
+
+
+/* section-before */
+
+.section-before {
+    height: 244px;
+    margin-bottom: 40px;
+    color: #363645;
+}
+
+.section-before-heading {
+    padding-top: 27px;
+    font-size: 20px;
+}
+
+.section-before-description {
+    padding-bottom: 16px;
+    font-size: 14px;
+    font-weight: 400;
+
+    line-height: 1.5em;
+}
+
+.section-before-materials {
+    display: flex;
+    min-width: 100%;
+}
+
+.section-before-materials-left {
+    width: 32px;
+    margin-right: 12px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.section-before-materials-left-item {
+    width: 32px;
+    height: 32px;
+    padding-top: 7px;
+    font-size: 16px;
+    position: relative;
+    margin: 18.5px 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+
+.section-before-materials-left-item:before {
+    content: "";
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: white;
+    display: block;
+    position: absolute; 
+    z-index: -10;
+}
+
+.section-before-materials-right {
+    width: 100%;
+}
+
+.section-before-materials-right-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 154px;
+
+}
+
+.section-before-materials-right-item {
+    width: 100%;
+    height: 69px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.section-before-materials-right-heading {
+    width: 80%;
+    line-height: 1.2rem;
+}
+
+.section-before-materials-description {
+    font-size: 14px;
+    font-weight: 400;
+    color: #363645;
+    opacity: 60%;
+}
+
+.section-before-materials-right-btn {
+    width: 36px;
+    height: 36px;
+    background-color: #fff;
+}
+
+
+/*lesson &*/
+
+.section-lessons {
+    color: #363645;
+}
+
+.section-lessons-heading {
+    font-size: 20px;
+}
+
+.section-lessons-materials {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-lessons-materials-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.section-lessons-materials-item {
+    width: 100%;
+    height: 89px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.section-lessons-materials-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4DB56D;
+    line-height: 1.5em;
+}
+
+.section-lessons-materials-description {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #363645;
+}
+
+.section-lessons-materials-download {
+    display: flex;
+    align-items: center;
+}
+
+.section-lessons-materials-process {
+    font-size: 14px;
+}
+
+.section-lessons-materials-btn {
+    margin-left: 16px;
+}
+
+.section-lessons-unavailable {
+    display: flex;
+    align-items: center;
+}
+
+.section-lessons-materials-heading-unavailable {
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 24%;
+    line-height: 1.5em;
+    padding-left: 4px;
+}
+
+/*section-sertificate*/
+
+.section-sertificate {
+    width: 100%;
+    height: 194px;
+    padding: 24px;
+    margin-bottom: 40px;
+    background-color: #363645;
+    border-radius: 8px;
+    background-image: url(/img/Frame\ 1184.png);
+    background-size: cover;
+}
+
+.section-sertificate-heading {
+    max-width: 185px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2em;
+    color: #fff;
+    margin-bottom: 30px;
+
+}
+
+.section-sertificate-btn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 143px;
+    height: 44px;
+    background-color: #4DB56D;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.section-sertificate-btn-description {
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+/* available */
+
+.section-available-heading1 {
+font-size: 20px;
+margin-bottom: 8px;
+}
+
+.section-available-description1 {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 8px;
+}
+.section-available-description2 {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 16px;
+    color: #B54E4D;
+}
+.available-materials {
+    margin-bottom: 16px;
+}
+
+.section-available-list {
+    margin-bottom: 24px;
+}
+
+.section-available-list1,
+.section-available-list2,
+.section-available-list3,
+.section-available-list4,
+.section-available-list5,
+.section-available-list6,
+.section-available-list   {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.section-available-item {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 213px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    margin-bottom: 16px;
+}
+
+.section-available-item-left {
+    width: 102px;
+} 
+
+
+.available-img {
+    width: 72px;
+    height: 101px;
+    margin-bottom: 24px;
+}
+
+.section-available-left-programm {
+    color: #4DB56D;
+    font-size: 14px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.section-available-item-right {
+    padding-left: 10px;
+    width: 100%;
+}
+
+.section-available-price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.section-available-heading {
+    font-size: 24px;
+    color: #B54E4D;
+}
+
+.section-available-price-strike {
+    font-size: 10px;
+    opacity: 80%;
+}
+
+.section-available-course {
+    font-size: 16px;
+    line-height: 1.2em;
+    margin-bottom: 8px;
+    color: #363645;
+    max-width: 80%;
+}
+
+.section-available-description {
+    font-size: 12px;
+    line-height: 1.5em;
+    color: #363645;
+    opacity: 60%;
+    margin-bottom: 24px;
+}
+
+.btn-aviable {
+    background: #4DB56D;
+    color: white;
+    border-radius: 4px;
+    border: solid 1px #4DB56D;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+}
+
+.btn-aviable:hover {
+    color: #fff;
+    background: #38A058;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+}
+
+.available-materials-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url(/img/help_outline_24px.svg);
+    background-repeat: no-repeat;
+}
+
+/*section-reviews*/
+
+.section-reviews {
+    margin-bottom: 48px;
+}
+.section-reviews-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.section-reviews-all {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-reviews-main {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    padding: 24px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.section-reviews-main2,
+.section-reviews-main3 {
+    display: none;
+}
+
+
+.section-reviews-profile {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.section-reviews-photo {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+}
+
+.section-reviews-name {
+    font-size: 18px;
+    color: #363645;
+    line-height: 1.3em;
+}
+
+.section-reviews-description {
+    font-size: 14px;
+    line-height: 1.3em;
+    font-weight: 300;
+    color: #363645;
+}
+
+.section-reviews-text {
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #363645;
+}
+
+/*recommend*/
+
+.section-recommend {
+    display: flex;
+    flex-direction: column;
+    color: #363645;
+}
+
+.section-recommend-item {
+    margin-bottom: 42px;
+    padding-bottom: 42px;
+    border-bottom: solid 1px #CCCCCC;
+}
+.section-recommend-heading {
+    margin-bottom: 8px;
+}
+
+.section-recommend-description {
+    font-size: 14px;
+    color: #363645;
+    margin-bottom: 16px;
+}
+
+.section-recommend-btn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
+    width: 245px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #4DB56D;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+.section-recommend-icon {
+    margin-right: 10px;
+}
+
+.section-recommend-btn-blue {
+    background-color: #66BAEE;
+}
+
+/*footer*/
+
+.footer-item {
+    color: #212121;
+    font-size: 12px;
+    margin-bottom: 24px;
+    opacity: 50%;
+}
+
+/* FIRST TASKS*/
+
+/* section-lesson*/
+
+.section-lesson {
+    margin-bottom: 246px;
+}
+
+.section-lesson-heading {
+    width: 100%;
+    font-size: 20px !important;
+    color: #363645;
+    margin-bottom: 8px;
+}
+
+.section-lesson-description {
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.section-lesson-video {
+    padding-bottom: 24px;
+}
+
+.section-lesson-video-img {
+    border-radius: 8px;
+}
+
+
+/* prev link */
+
+.prev-page {
+    display: flex;
+    padding-top: 100px;
+    margin-bottom: 40px;
+}
+
+.prev-page-link {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #4DB56D;
+}
+
+.prev-page-icon {
+    padding-right: 16px;
+}
+
+/* section-profile */
+
+.section-profile {
+    margin-bottom: 246px;
+}
+
+.section-profile-heading {
+    width: 100%;
+    font-size: 20px !important;
+    color: #363645;
+    margin-bottom: 8px;
+}
+
+.section-profile-main {
+    height: 27px;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.section-lesson-profile-fullname {
+    padding-right: 10px;
+}
+
+/* section-bonus*/
+
+.section-bonus {
+    margin-bottom: 40px;
+}
+
+.section-bonus-heading {
+    margin-bottom: 16px;
+}
+
+.section-bonus-container {
+    display: flex;
+}
+
+.section-bonus-left {
+    min-width: 33%;
+}
+
+.section-bonus-right {
+    position: relative;
+    padding-left: 20px;
+}
+
+.section-bonus-right-text {
+    font-size: 14px;
+    color: #363645;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.section-bonus-btn {
+    width: 90%;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #4DB56D;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+/* homework */
+
+.section-homework {
+    color: #363645;
+    margin-bottom: 40px;
+    border-bottom: 0.2px solid #E0E0E0;
+}
+
+.section-homework-heading {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.section-homework-description {
+    padding-bottom: 16px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.section-homework-materials {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-homework-materials-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-homework-materials-item {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.section-homework-materials-left {
+    max-width: 83%;
+    display: flex;
+    align-items: center;
+}
+
+.section-homework-materials-done {
+    min-width: 24px;
+    height: 24px;
+    padding-right: 12px;
+}
+
+.section-homework-materials-heading {
+    width: 80%;
+    color: #363645;
+    line-height: 1.2em;
+}
+
+/* section-firstlesson*/
+
+.section-firstlesson {
+    margin-bottom: 40px;
+    color: #363645;
+}
+
+.section-firstlesson-heading {
+    width: 100%;
+    font-size: 20px !important;
+    margin-bottom: 8px;
+}
+
+.section-firstlesson-heading-description {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.section-firstlesson-description-icon {
+    padding-right: 8px;
+}
+
+.section-firstlesson-description {
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.section-firstlesson-video-progress {
+    margin-bottom: 40px;
+}
+
+.section-firstlesson-video-progress-line1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 16px;
+    padding-top: 24px;
+}
+
+.section-firstlesson-video-progress-line-img {
+    margin-bottom: 16px;
+}
+
+.section-firstlesson-video-text {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 16px;
+}
+
+.section-firstlesson-video-download {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 24px;
+    font-size: 16px;
+    color: #4DB56D;
+}
+
+.section-firstlesson-video-download-icon {
+    padding-right: 8px;
+}
+
+
+@media (max-width: 320px) {
+
+    .btn-aviable {
+        width: 120px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    h1 {
+        font-size: 42px !important;
+    }
+
+    h2 {
+        font-size: 32px !important;
+    }
+
+
+    .hero {
+        height: 470px;
+        background: #565566 url(/img/1var.jpg) center no-repeat;
+        background-size: auto;
+    }
+
+    .hero__banner-heading {
+        max-width: none;
+    }
+
+    .hero__banner-br {
+        display: none;
+    }
+
+    .hero-timer-heading {
+        font-size: 20px;
+    }
+
+    .hero-timer-numeral-block {
+        margin-bottom: 16px;
+        margin-right: 16px;
+    }
+
+    .hero-timer-days:not(:first-child) {
+        margin-left: 16px;
+    }
+
+    .hero-timer-day-subtitle {
+        font-size: 16px;
+    }
+
+    .hero-timer-numeral {
+        width: 43px;
+        height: 56px;
+        font-size: 20px;
+        padding: 16px;
+    }
+
+    .hero-timer-day-separator {
+        padding: 15px 0px;
+    }
+
+    .section-before {
+        height: 349px;
+    }
+
+    .section-before-description {
+    font-size: 16px;
+    }
+
+    .section-before-materials-left {
+        height: 244px;
+        justify-content: space-around;
+        margin-bottom: 40px;
+    }
+
+    .section-before-materials-right-item {
+        align-items: center;
+        min-height: 112px;
+    }
+
+    .section-before-materials-right-heading {
+        font-size: 20px;
+    }
+
+    .section-before-materials-description {
+        padding-top: 8px;
+        font-size: 16px;
+    }
+
+    .section-lessons-materials-item {
+        height: 97px;
+        margin-bottom: 20px;
+    }
+
+    .section-lessons-materials-heading {
+        font-size: 20px;
+    }
+
+    .section-lessons-materials-process {
+        font-size: 20px;
+    }
+
+    .section-lessons-materials-heading-unavailable {
+        font-size: 20px;
+    }
+
+    .section-sertificate {
+        height: 274px;
+        padding: 48px;
+        background-image: url(/img/сертификат.png);
+    }
+
+    .section-sertificate-heading {
+        max-width: 430px;
+    }
+
+    .section-sertificate-btn {
+        width: 240px;
+        height: 56px;
+    }
+    
+    .section-sertificate-btn-icon {
+        width: 31px;
+    }
+
+    .section-sertificate-btn-description {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .available-materials-icon {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        bottom: 48px;
+        right: 40px;
+        background-image: url(/img/help_outline_24px.svg);
+        background-size: cover;
+    }
+
+    .section-available-item {
+        height: 363px;
+        padding: 40px;
+    }
+
+    .section-available-item-left {
+        min-width: 200px;
+    }
+
+    .available-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-available-left-programm {
+        bottom: 54px;
+        right: 88px;
+        font-size: 20px;
+    }
+
+    .section-available-item-right {
+        padding-left: 40px;
+    }
+
+    .section-available-price-main {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+
+    .section-available-price-strike {
+        font-size: 24px;
+        padding-left: 16px;
+        opacity: 80%;
+        color: #363645;
+    }
+
+    .section-available-heading {
+        font-size: 42px !important;
+    }
+
+    .section-available-course {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .section-available-description {
+        font-size: 20px;
+    }
+
+    .btn-aviable {
+        width: 240px;
+        height: 56px;
+        bottom: 40px;
+        font-size: 16px;
+    }
+
+    .section-reviews-main2,
+    .section-reviews-main3 {
+        display: flex;
+    }
+
+    .section-recommend {
+        flex-direction: row;
+        margin-bottom: 64px;
+        border-bottom: solid 1px #CCCCCC;
+    }
+
+    .section-recommend-item {
+        position: relative;
+        width: 50%;
+        height: 238px;
+        padding-bottom: 0px;
+        border: none;
+        margin-bottom: 44px;
+    }
+
+    .section-recommend-heading {
+        margin-bottom: 16px;
+        font-size: 24px !important;
+    }
+
+    .section-recommend-description {
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+
+    .section-recommend-btn {
+        height: 56px;
+        position: absolute;
+        bottom: 0px;
+    }
+
+    .section-recommend-btn-blue {
+        position: absolute;
+        bottom: 0px;
+        width: 340px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    /* FIRST TASKS*/
+
+    .prev-page {
+        padding-top: 140px;
+        margin-bottom: 64px;
+    }
+
+    .prev-page-link {
+        font-size: 20px;
+    }
+
+    .section-lesson {
+        max-width: 66.6%;
+    }
+ 
+     .section-lesson-heading {
+         font-size: 42px !important;
+         margin-bottom: 16px;
+    }
+ 
+     .section-lesson-description {
+         font-size: 20px;
+    }
+
+    /*FIRST LESSON*/
+
+    
+    .section-firstlesson-heading {
+        font-size: 42px !important;
+    }
+
+    .section-firstlesson-heading-description {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .section-firstlesson-description {
+        font-size: 20px;
+    }
+
+    .section-firstlesson-video {
+        display: flex;
+    }
+
+    .section-firstlesson-video-left {
+        width: 610px;
+    }
+
+    .section-firstlesson-video-progress-descr {
+        width: 33.3%;
+        margin-left: 40px;
+    }
+
+    .section-firstlesson-video-progress-line1 {
+        font-size: 20px;
+    }
+
+    .section-firstlesson-video-progress-line-img {
+        width: 100%;
+    }
+
+    /* profile*/
+    .section-profile-heading {
+        font-size: 42px !important;
+        margin-bottom: 24px;
+    }
+
+    .section-lesson-profile-fullname {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 320px) {
+
+    .btn-aviable {
+        width: 120px;
+    }
+}
+
+@media (min-width: 1024px) { 
+    
+    .section-recommend-heading {
+    font-size: 32px !important;
+    }
+}
