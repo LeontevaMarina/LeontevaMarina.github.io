@@ -110,7 +110,7 @@ button::-moz-focus-inner {
 
 .hero {
     height: 358px;
-    background: #373646 url(/img/Mobile.jpg) center no-repeat;
+    background: #373646 url(/Finra/img/Mobile.jpg) center no-repeat;
     background-size: cover;
     padding-top: 80px;
 }
@@ -367,7 +367,7 @@ button::-moz-focus-inner {
     margin-bottom: 40px;
     background-color: #363645;
     border-radius: 8px;
-    background-image: url(/img/Frame\ 1184.png);
+    background-image: url(/Finra/img/Frame\ 1184.png);
     background-size: cover;
 }
 
@@ -530,7 +530,7 @@ margin-bottom: 8px;
 .available-materials-icon {
     width: 24px;
     height: 24px;
-    background-image: url(/img/help_outline_24px.svg);
+    background-image: url(/Finra/img/help_outline_24px.svg);
     background-repeat: no-repeat;
 }
 
@@ -921,7 +921,7 @@ margin-bottom: 8px;
 
     .hero {
         height: 470px;
-        background: #565566 url(/img/1var.jpg) center no-repeat;
+        background: #565566 url(/Finra/img/1var.jpg) center no-repeat;
         background-size: auto;
     }
 
@@ -1009,7 +1009,7 @@ margin-bottom: 8px;
     .section-sertificate {
         height: 274px;
         padding: 48px;
-        background-image: url(/img/сертификат.png);
+        background-image: url(/Finra/img/сертификат.png);
     }
 
     .section-sertificate-heading {
@@ -1036,7 +1036,7 @@ margin-bottom: 8px;
         position: absolute;
         bottom: 48px;
         right: 40px;
-        background-image: url(/img/help_outline_24px.svg);
+        background-image: url(/Finra/img/help_outline_24px.svg);
         background-size: cover;
     }
 
