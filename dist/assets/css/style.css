@@ -507,7 +507,7 @@ svg:not(:root) {
     width: 464px;
     height: 50px;
     margin: 0px 40px;
-    background-image: url(../images/logo.png);
+    background-image: url(accets/images/logo.png);
     background-repeat: no-repeat;
     background-color: transparent;
     background-size: contain;
@@ -900,7 +900,7 @@ svg:not(:root) {
     position: absolute;
     top: 50%;
     left: -72px;
-    background-image: url(../images/prev.png);
+    background-image: url(accets/images/prev.png);
     background-repeat: no-repeat;
     background-size: 10px;
     background-position: center;
@@ -922,7 +922,7 @@ svg:not(:root) {
     position: absolute;
     top: 50%;
     right: -72px;
-    background-image: url(../images/next.png);
+    background-image: url(accets/images/next.png);
     background-repeat: no-repeat;
     background-size: 10px;
     background-position: center;
@@ -941,7 +941,7 @@ svg:not(:root) {
 }
 
 .slider-main__slide {
-    background-image: url(/assets/images/slider1.jpg);
+    background-image: url(assets/images/slider1.jpg);
 }
 
 .section-news {
@@ -1043,7 +1043,7 @@ svg:not(:root) {
     font-size: 1.5em;
     width: 16px;
     height: 10px;
-    background-image: url(../images/arrow-down.png);
+    background-image: url(accets/images/arrow-down.png);
     background-repeat: no-repeat;
 }
 
@@ -1249,5 +1249,5 @@ textarea {
 }
 
 .footer-social-icon-vk {
-    background-image: url(../images/arrow-down.png);
+    background-image: url(accets/images/arrow-down.png);
 }
