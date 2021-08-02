@@ -1122,7 +1122,7 @@ svg:not(:root) {
 .modal {
     width: 100%;
     max-width: 544px;
-    margin: 20% auto;
+    margin: 20px auto;
     padding: 80px;
     background-color: white;
     position: relative;
