@@ -431,7 +431,6 @@ svg:not(:root) {
   width: 464px;
   height: 50px;
   margin: 0px 40px;
-  background-image: url(../images/logo.png);
   background-repeat: no-repeat;
   background-color: transparent;
   background-size: contain;
@@ -858,7 +857,7 @@ svg:not(:root) {
   height: 296px;
   position: absolute;
   top: 80px;
-  left: 411px;
+  left: 20px;
   background-color: #fff;
   border-radius: 8px;
   padding: 40px 71px; }
@@ -1053,7 +1052,6 @@ textarea {
   margin-bottom: 8px; }
 
 .footer-social-list {
-  height: 220px;
   padding-right: 45px;
   margin-bottom: 70px;
   display: flex;
