@@ -941,7 +941,7 @@ svg:not(:root) {
 }
 
 .slider-main__slide {
-    background-image: url(./assets/images/slider.jpg);
+    background-image: url(dist/assets/images/slider.jpg);
 }
 
 .section-news {
