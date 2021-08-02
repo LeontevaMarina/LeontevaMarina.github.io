@@ -745,7 +745,7 @@ svg:not(:root) {
       right: 5px; } }
 
 .slider-main__slide {
-  background-image: url(/assets/images/slider1.jpg); }
+  background-image: url(../images/slider.jpg); }
 
 .section-news {
   margin-top: 80px; }
